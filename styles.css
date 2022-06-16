@@ -50,3 +50,30 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+.button-mobile {
+  width: 250px;
+  height: 100px;
+  border-radius: 20%;
+  border: 7px solid black;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Press Start 2P", cursive;
+  display: none;
+}
+
+@media (max-width: 1120px) {
+  .button-mobile {
+    display: inline-block;
+  }
+  .container {
+    width: 85%;
+    margin-bottom: 10%;
+  }
+
+  #level-title {
+    margin-top: 30%;
+    margin-bottom: 10%;
+    line-height: 2.5;
+  }
+}
